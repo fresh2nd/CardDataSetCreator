@@ -1,6 +1,7 @@
 package com.dataset.creator.ui.camera
 
 import android.content.Context
+import android.media.MediaActionSound
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageCapture
 import androidx.camera.core.ImageCaptureException
@@ -15,9 +16,11 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -30,6 +33,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import java.io.File
 import java.text.SimpleDateFormat
@@ -41,14 +45,33 @@ fun CameraScreen(cardName: String, navController: NavController) {
     val lifecycleOwner = LocalLifecycleOwner.current
     val coroutineScope = rememberCoroutineScope()
     var imageCapture: ImageCapture? by remember { mutableStateOf(null) }
-    var isShutterEnabled by remember { mutableStateOf(true) }
+    var isAutoCaptureOn by remember { mutableStateOf(false) }
     var showPictureAddedCue by remember { mutableStateOf(false) }
+
+    val sound = remember { MediaActionSound() }
+
+    // Auto-capture logic
+    LaunchedEffect(isAutoCaptureOn) {
+        if (isAutoCaptureOn) {
+            while (isActive) {
+                takePhoto(context, imageCapture, cardName) {
+                    coroutineScope.launch {
+                        showPictureAddedCue = true
+                        sound.play(MediaActionSound.SHUTTER_CLICK)
+                        delay(500) // Show cue for 0.5s
+                        showPictureAddedCue = false
+                    }
+                }
+                delay(600) // Wait 0.6s before next photo
+            }
+        }
+    }
 
     Box(modifier = Modifier.fillMaxSize()) {
         AndroidView(
-            factory = { context ->
-                val previewView = PreviewView(context)
-                val cameraProviderFuture = ProcessCameraProvider.getInstance(context)
+            factory = { ctx ->
+                val previewView = PreviewView(ctx)
+                val cameraProviderFuture = ProcessCameraProvider.getInstance(ctx)
                 cameraProviderFuture.addListener({
                     val cameraProvider = cameraProviderFuture.get()
                     val preview = Preview.Builder().build().also {
@@ -58,84 +81,78 @@ fun CameraScreen(cardName: String, navController: NavController) {
                     val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
                     try {
                         cameraProvider.unbindAll()
-                        cameraProvider.bindToLifecycle(
-                            lifecycleOwner,
-                            cameraSelector,
-                            preview,
-                            imageCapture
-                        )
+                        cameraProvider.bindToLifecycle(lifecycleOwner, cameraSelector, preview, imageCapture)
                     } catch (exc: Exception) {
                         // Handle exceptions
                     }
-                }, ContextCompat.getMainExecutor(context))
+                }, ContextCompat.getMainExecutor(ctx))
                 previewView
             },
             modifier = Modifier.fillMaxSize()
         )
 
+        // Close Button
         IconButton(
             onClick = { navController.popBackStack() },
-            modifier = Modifier
-                .align(Alignment.TopStart)
-                .padding(16.dp)
+            modifier = Modifier.align(Alignment.TopStart).padding(16.dp)
         ) {
-            Icon(
-                imageVector = Icons.Filled.Close,
-                contentDescription = "Close camera",
-                tint = Color.White
-            )
+            Icon(imageVector = Icons.Filled.Close, contentDescription = "Close camera", tint = Color.White)
         }
 
+        // "Picture Added" Cue
         AnimatedVisibility(
             visible = showPictureAddedCue,
             enter = fadeIn(),
             exit = fadeOut(),
             modifier = Modifier.align(Alignment.TopCenter).padding(top = 16.dp)
         ) {
-            Text(
-                text = "Picture added",
-                color = Color.White,
-                modifier = Modifier
-                    .background(Color.Black.copy(alpha = 0.5f))
-                    .padding(16.dp)
-            )
+            Text("Picture added", color = Color.White, modifier = Modifier.background(Color.Black.copy(alpha = 0.5f)).padding(16.dp))
         }
 
-        IconButton(
-            onClick = {
-                if (isShutterEnabled) {
-                    isShutterEnabled = false
-                    takePhoto(context, imageCapture, cardName) {
-                        coroutineScope.launch {
-                            showPictureAddedCue = true
-                            delay(1000) // Show cue for 1 second
-                            showPictureAddedCue = false
-                            delay(200) // Re-enable shutter after 0.2s
-                            isShutterEnabled = true
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .align(Alignment.BottomCenter)
+                .padding(horizontal = 32.dp, vertical = 32.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Spacer(modifier = Modifier.size(60.dp)) // Placeholder to balance the shutter button
+
+            // Main Shutter Button
+            IconButton(
+                onClick = {
+                    if (!isAutoCaptureOn) {
+                        takePhoto(context, imageCapture, cardName) {
+                            coroutineScope.launch {
+                                showPictureAddedCue = true
+                                sound.play(MediaActionSound.SHUTTER_CLICK)
+                                delay(500)
+                                showPictureAddedCue = false
+                            }
                         }
                     }
-                }
-            },
-            modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .padding(32.dp)
-        ) {
-            Box(
-                modifier = Modifier
-                    .size(80.dp)
-                    .padding(1.dp)
-                    .border(2.dp, Color.White, CircleShape)
-            )
+                },
+                enabled = !isAutoCaptureOn
+            ) {
+                Box(modifier = Modifier.size(80.dp).padding(1.dp).border(2.dp, if (isAutoCaptureOn) Color.Gray else Color.White, CircleShape))
+            }
+
+            // Auto-Capture Toggle Button
+            IconButton(
+                onClick = { isAutoCaptureOn = !isAutoCaptureOn },
+                colors = IconButtonDefaults.iconButtonColors(
+                    contentColor = if (isAutoCaptureOn) Color.Yellow else Color.White
+                ),
+                modifier = Modifier.size(60.dp)
+            ) {
+                Icon(Icons.Filled.AutoAwesome, contentDescription = "Auto Capture")
+            }
         }
     }
 }
 
-private fun takePhoto(
-    context: Context,
-    imageCapture: ImageCapture?,
-    cardName: String,
-    onPhotoTaken: () -> Unit
-) {
+private fun takePhoto(context: Context, imageCapture: ImageCapture?, cardName: String, onPhotoTaken: () -> Unit) {
     if (imageCapture == null) return
 
     val photoFile = createImageFile(context, cardName)
@@ -146,8 +163,7 @@ private fun takePhoto(
         ContextCompat.getMainExecutor(context),
         object : ImageCapture.OnImageSavedCallback {
             override fun onError(exc: ImageCaptureException) {
-                // Handle error
-                onPhotoTaken() // Re-enable button even on error
+                onPhotoTaken()
             }
 
             override fun onImageSaved(output: ImageCapture.OutputFileResults) {
@@ -158,7 +174,7 @@ private fun takePhoto(
 }
 
 private fun createImageFile(context: Context, cardName: String): File {
-    val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
+    val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss_SSS", Locale.getDefault()).format(Date())
     val storageDir = File(context.getExternalFilesDir(null), cardName)
     if (!storageDir.exists()) {
         storageDir.mkdirs()

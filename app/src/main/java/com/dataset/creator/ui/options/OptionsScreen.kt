@@ -10,19 +10,8 @@ import android.provider.MediaStore
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -34,6 +23,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -49,7 +40,7 @@ fun OptionsScreen(navController: NavController) {
         if (isGranted) {
             isExporting = true
             coroutineScope.launch {
-                lastExportUri = exportImages(context)
+                lastExportUri = exportImagesAsZip(context)
                 isExporting = false
             }
         } else {
@@ -69,7 +60,7 @@ fun OptionsScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Images will be exported to the public 'Pictures/RFBound Cards' folder on your device.",
+                text = "Export all card images as a single 'CardDataSet.zip' file to your device's 'Documents' folder.",
                 style = MaterialTheme.typography.bodyLarge,
                 textAlign = TextAlign.Center
             )
@@ -81,14 +72,14 @@ fun OptionsScreen(navController: NavController) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                         isExporting = true
                         coroutineScope.launch {
-                            lastExportUri = exportImages(context)
+                            lastExportUri = exportImagesAsZip(context)
                             isExporting = false
                         }
                     } else {
                         permissionLauncher.launch(Manifest.permission.WRITE_EXTERNAL_STORAGE)
                     }
                 }) {
-                    Text("Export All Images")
+                    Text("Export as .zip file")
                 }
             }
             Spacer(modifier = Modifier.height(16.dp))
@@ -96,7 +87,7 @@ fun OptionsScreen(navController: NavController) {
                 onClick = {
                     lastExportUri?.let {
                         val intent = Intent(Intent.ACTION_VIEW).apply {
-                            setDataAndType(it, "image/jpeg")
+                            setDataAndType(it, "application/zip")
                             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                         }
                         context.startActivity(Intent.createChooser(intent, "Open with..."))
@@ -104,61 +95,65 @@ fun OptionsScreen(navController: NavController) {
                 },
                 enabled = lastExportUri != null
             ) {
-                Text("Open Export Folder")
+                Text("Open Zip File")
             }
         }
     }
 }
 
-private suspend fun exportImages(context: Context): Uri? {
-    var lastSavedUri: Uri? = null
+private suspend fun exportImagesAsZip(context: Context): Uri? {
+    var zipUri: Uri? = null
     withContext(Dispatchers.IO) {
-        val imageExtensions = setOf("jpg", "jpeg", "png", "webp")
         val sourceRoot = context.getExternalFilesDir(null)
-        if (sourceRoot == null) {
+        if (sourceRoot == null || !sourceRoot.exists()) {
             withContext(Dispatchers.Main) {
-                Toast.makeText(context, "External storage not available.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "No images to export.", Toast.LENGTH_SHORT).show()
             }
             return@withContext
         }
 
         val contentResolver = context.contentResolver
-        var imagesCopied = 0
+        val contentValues = ContentValues().apply {
+            put(MediaStore.MediaColumns.DISPLAY_NAME, "CardDataSet.zip")
+            put(MediaStore.MediaColumns.MIME_TYPE, "application/zip")
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                put(MediaStore.MediaColumns.RELATIVE_PATH, "Documents/RFBound Cards")
+            }
+        }
 
-        sourceRoot.listFiles()?.forEach { cardDir ->
-            if (cardDir.isDirectory) {
-                cardDir.listFiles()?.forEach { imageFile ->
-                    if (imageExtensions.any { imageFile.extension.equals(it, ignoreCase = true) }) {
-                        val contentValues = ContentValues().apply {
-                            put(MediaStore.MediaColumns.DISPLAY_NAME, imageFile.name)
-                            put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg")
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-                                put(MediaStore.MediaColumns.RELATIVE_PATH, "Pictures/RFBound Cards/${cardDir.name}")
-                            }
-                        }
-                        
-                        val uri = contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues)
-                        if (uri != null) {
-                            try {
-                                contentResolver.openOutputStream(uri)?.use { outputStream ->
-                                    imageFile.inputStream().use { inputStream ->
-                                        inputStream.copyTo(outputStream)
-                                    }
+        zipUri = contentResolver.insert(MediaStore.Files.getContentUri("external"), contentValues)
+        if (zipUri == null) {
+            withContext(Dispatchers.Main) {
+                Toast.makeText(context, "Failed to create zip file.", Toast.LENGTH_SHORT).show()
+            }
+            return@withContext
+        }
+
+        try {
+            contentResolver.openOutputStream(zipUri!!)?.use { outputStream ->
+                ZipOutputStream(outputStream).use { zipOutputStream ->
+                    sourceRoot.listFiles()?.forEach { cardDir ->
+                        if (cardDir.isDirectory) {
+                            cardDir.listFiles()?.forEach { imageFile ->
+                                val entry = ZipEntry("${cardDir.name}/${imageFile.name}")
+                                zipOutputStream.putNextEntry(entry)
+                                imageFile.inputStream().use { inputStream ->
+                                    inputStream.copyTo(zipOutputStream)
                                 }
-                                imagesCopied++
-                                lastSavedUri = uri
-                            } catch (e: Exception) {
-                                // Handle exceptions
+                                zipOutputStream.closeEntry()
                             }
                         }
                     }
                 }
             }
-        }
-
-        withContext(Dispatchers.Main) {
-            Toast.makeText(context, "$imagesCopied images exported successfully.", Toast.LENGTH_LONG).show()
+            withContext(Dispatchers.Main) {
+                Toast.makeText(context, "Successfully exported to Documents/RFBound Cards", Toast.LENGTH_LONG).show()
+            }
+        } catch (e: Exception) {
+            withContext(Dispatchers.Main) {
+                Toast.makeText(context, "Export failed: ${e.message}", Toast.LENGTH_LONG).show()
+            }
         }
     }
-    return lastSavedUri
+    return zipUri
 }

@@ -21,7 +21,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.core.graphics.drawable.toBitmap
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
@@ -87,7 +86,7 @@ fun CardListScreen(navController: NavController, onCardClick: (String) -> Unit) 
 
                         Column(modifier = Modifier.weight(1f)) {
                             Text(text = card.name, style = MaterialTheme.typography.titleMedium)
-                            Text(text = "Set: ${card.set}", style = MaterialTheme.typography.bodySmall)
+                            Text(text = "Set: ${card.set} - #${card.card_number}", style = MaterialTheme.typography.bodySmall)
                         }
                         Text(text = "${getCardImageCount(context, card.getFolderName())} images")
                     }

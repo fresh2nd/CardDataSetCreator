@@ -9,12 +9,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -69,7 +64,19 @@ fun CardDetailsScreen(cardName: String, navController: NavController, onImageCli
     }
 
     Scaffold(
-        topBar = { StandardTopAppBar(title = cardName, navController = navController) }
+        topBar = {
+            TopAppBar(
+                title = { Text(cardName) },
+                navigationIcon = { StandardTopAppBar(title = "", navController = navController) },
+                actions = {
+                    Text(
+                        text = "${imageUris.size} images",
+                        modifier = Modifier.padding(end = 16.dp),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+            )
+        }
     ) { paddingValues ->
         Column(
             modifier = Modifier
