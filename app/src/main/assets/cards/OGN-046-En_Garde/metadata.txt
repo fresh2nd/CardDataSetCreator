@@ -1,0 +1,3 @@
+Card Name: En Garde
+Card Number: OGN-046
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-046.webp

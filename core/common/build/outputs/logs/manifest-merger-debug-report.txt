@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml:2:13-83
+INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml:2:13-83
+	package
+		INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml
+	xmlns:android
+		ADDED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml:2:23-81
+uses-sdk
+INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml
+INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jonat\AndroidStudioProjects\CardDataSetCreator\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest978238929860400835.xml

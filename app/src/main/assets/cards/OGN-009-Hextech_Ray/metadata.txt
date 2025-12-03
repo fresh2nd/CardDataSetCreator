@@ -1,0 +1,3 @@
+Card Name: Hextech Ray
+Card Number: OGN-009
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-009.webp

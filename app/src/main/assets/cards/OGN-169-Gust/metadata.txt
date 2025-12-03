@@ -1,0 +1,3 @@
+Card Name: Gust
+Card Number: OGN-169
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-169.webp

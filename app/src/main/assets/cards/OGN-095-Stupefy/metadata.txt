@@ -1,0 +1,3 @@
+Card Name: Stupefy
+Card Number: OGN-095
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-095.webp

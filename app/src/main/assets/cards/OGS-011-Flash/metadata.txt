@@ -1,0 +1,3 @@
+Card Name: Flash
+Card Number: OGS-011
+Image URL: https://cdn.piltoverarchive.com/cards/OGS-011.webp

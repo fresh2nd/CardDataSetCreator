@@ -1,0 +1,3 @@
+Card Name: Sabotage
+Card Number: OGN-156
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-156.webp

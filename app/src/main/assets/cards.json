@@ -1,0 +1,1422 @@
+[
+    {
+        "set": "OGN",
+        "card_number": "001",
+        "name": "Blazing Scorcher"
+    },
+    {
+        "set": "OGN",
+        "card_number": "002",
+        "name": "Brazen Buccaneer"
+    },
+    {
+      "set": "OGN",
+      "card_number": "003",
+      "name": "Chemtech Enforcer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "004",
+        "name": "Cleave"
+    },
+    {
+        "set": "OGN",
+        "card_number": "005",
+        "name": "Disintegrate"
+    },
+    {
+        "set": "OGN",
+        "card_number": "006",
+        "name": "Flame Chompers"
+    },
+    {
+        "set": "OGN",
+        "card_number": "007",
+        "name": "Fury Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "008",
+        "name": "Get Excited"
+    },
+    {
+        "set": "OGN",
+        "card_number": "009",
+        "name": "Hextech Ray"
+    },
+    {
+        "set": "OGN",
+        "card_number": "010",
+        "name": "Legion Rearguard"
+    },
+    {
+        "set": "OGN",
+        "card_number": "011",
+        "name": "Magma Wurm"
+    },
+    {
+        "set": "OGN",
+        "card_number": "012",
+        "name": "Noxus Hopeful"
+    },
+    {
+        "set": "OGN",
+        "card_number": "013",
+        "name": "Pouty Poro"
+    },
+    {
+        "set": "OGN",
+        "card_number": "014",
+        "name": "Sky Splitter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "015",
+        "name": "Captain Farron"
+    },
+    {
+        "set": "OGN",
+        "card_number": "016",
+        "name": "Dangerous Duo"
+    },
+    {
+        "set": "OGN",
+        "card_number": "017",
+        "name": "Iron Ballista"
+    },
+    {
+        "set": "OGN",
+        "card_number": "018",
+        "name": "Noxus Saboteur"
+    },
+    {
+        "set": "OGN",
+        "card_number": "019",
+        "name": "Raging Soul"
+    },
+    {
+        "set": "OGN",
+        "card_number": "021",
+        "name": "Sun Disc"
+    },
+    {
+        "set": "OGN",
+        "card_number": "022",
+        "name": "Thermo Beam"
+    },
+    {
+        "set": "OGN",
+        "card_number": "024",
+        "name": "Void Seeker"
+    },
+    {
+        "set": "OGN",
+        "card_number": "025",
+        "name": "Blind Fury"
+    },
+    {
+        "set": "OGN",
+        "card_number": "027",
+        "name": "Darius Trifarian"
+    },
+    {
+        "set": "OGN",
+        "card_number": "028",
+        "name": "Draven Showboat"
+    },
+    {
+        "set": "OGN",
+        "card_number": "029",
+        "name": "Falling Star"
+    },
+    {
+        "set": "OGN",
+        "card_number": "031",
+        "name": "Raging Firebrand"
+    },
+    {
+        "set": "OGN",
+        "card_number": "032",
+        "name": "Ravenborn Tome"
+    },
+    {
+        "set": "OGN",
+        "card_number": "033",
+        "name": "Shakedown"
+    },
+    {
+        "set": "OGN",
+        "card_number": "035",
+        "name": "Vayne Hunter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "036",
+        "name": "Vi Destructive"
+    },
+    {
+        "set": "OGN",
+        "card_number": "037",
+        "name": "Immortal Phoenix"
+    },
+    {
+        "set": "OGN",
+        "card_number": "039",
+        "name": "KaiSa Survivor"
+    },
+    {
+        "set": "OGN",
+        "card_number": "040",
+        "name": "Seal of Rage"
+    },
+    {
+        "set": "OGN",
+        "card_number": "041",
+        "name": "Volibear Furious"
+    },
+    {
+        "set": "OGN",
+        "card_number": "042",
+        "name": "Calm Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "043",
+        "name": "Charm"
+    },
+    {
+        "set": "OGN",
+        "card_number": "044",
+        "name": "Clockwork Keeper"
+    },
+    {
+        "set": "OGN",
+        "card_number": "045",
+        "name": "Defy"
+    },
+    {
+        "set": "OGN",
+        "card_number": "046",
+        "name": "En Garde"
+    },
+    {
+        "set": "OGN",
+        "card_number": "047",
+        "name": "Find Your Center"
+    },
+    {
+        "set": "OGN",
+        "card_number": "048",
+        "name": "Meditation"
+    },
+    {
+        "set": "OGN",
+        "card_number": "049",
+        "name": "Playful Phantom"
+    },
+    {
+        "set": "OGN",
+        "card_number": "050",
+        "name": "Rune Prison"
+    },
+    {
+        "set": "OGN",
+        "card_number": "052",
+        "name": "Stalwart Poro"
+    },
+    {
+        "set": "OGN",
+        "card_number": "053",
+        "name": "Stand United"
+    },
+    {
+        "set": "OGN",
+        "card_number": "054",
+        "name": "Sunlit Guardian"
+    },
+    {
+        "set": "OGN",
+        "card_number": "055",
+        "name": "Wielder of Water"
+    },
+    {
+        "set": "OGN",
+        "card_number": "056",
+        "name": "Adaptatron"
+    },
+    {
+        "set": "OGN",
+        "card_number": "057",
+        "name": "Block"
+    },
+    {
+        "set": "OGN",
+        "card_number": "058",
+        "name": "Discipline"
+    },
+    {
+        "set": "OGN",
+        "card_number": "059",
+        "name": "Eclipse Herald"
+    },
+    {
+        "set": "OGN",
+        "card_number": "061",
+        "name": "Poro Herder"
+    },
+    {
+        "set": "OGN",
+        "card_number": "062",
+        "name": "Reinforce"
+    },
+    {
+        "set": "OGN",
+        "card_number": "063",
+        "name": "Spirits Refuge"
+    },
+    {
+        "set": "OGN",
+        "card_number": "064",
+        "name": "Wind Wall"
+    },
+    {
+        "set": "OGN",
+        "card_number": "065",
+        "name": "Wizened Elder"
+    },
+    {
+        "set": "OGN",
+        "card_number": "066",
+        "name": "Ahri Alluring"
+    },
+    {
+        "set": "OGN",
+        "card_number": "069",
+        "name": "Last Stand"
+    },
+    {
+        "set": "OGN",
+        "card_number": "071",
+        "name": "Party Favors"
+    },
+    {
+        "set": "OGN",
+        "card_number": "072",
+        "name": "Solari Shrine"
+    },
+    {
+        "set": "OGN",
+        "card_number": "073",
+        "name": "Sona Harmonious"
+    },
+    {
+        "set": "OGN",
+        "card_number": "074",
+        "name": "Taric Protector"
+    },
+    {
+        "set": "OGN",
+        "card_number": "075",
+        "name": "Tasty Faefolk"
+    },
+    {
+        "set": "OGN",
+        "card_number": "078",
+        "name": "Lee Sin Ascetic"
+    },
+    {
+        "set": "OGN",
+        "card_number": "079",
+        "name": "Leona Zealot"
+    },
+    {
+        "set": "OGN",
+        "card_number": "080",
+        "name": "Mystic Reversal"
+    },
+    {
+        "set": "OGN",
+        "card_number": "081",
+        "name": "Seal of Focus"
+    },
+    {
+        "set": "OGN",
+        "card_number": "085",
+        "name": "Falling Comet"
+    },
+    {
+        "set": "OGN",
+        "card_number": "088",
+        "name": "Mega Mech"
+    },
+    {
+        "set": "OGN",
+        "card_number": "089",
+        "name": "Mind Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "090",
+        "name": "Orb of Regret"
+    },
+    {
+        "set": "OGN",
+        "card_number": "091",
+        "name": "Pit Crew"
+    },
+    {
+        "set": "OGN",
+        "card_number": "092",
+        "name": "Riptide Rex"
+    },
+    {
+        "set": "OGN",
+        "card_number": "093",
+        "name": "Smoke Screen"
+    },
+    {
+        "set": "OGN",
+        "card_number": "094",
+        "name": "Sprite Call"
+    },
+    {
+        "set": "OGN",
+        "card_number": "095",
+        "name": "Stupefy"
+    },
+    {
+        "set": "OGN",
+        "card_number": "096",
+        "name": "Watchful Sentry"
+    },
+    {
+        "set": "OGN",
+        "card_number": "097",
+        "name": "Blastcone Fae"
+    },
+    {
+        "set": "OGN",
+        "card_number": "098",
+        "name": "Energy Conduit"
+    },
+    {
+        "set": "OGN",
+        "card_number": "099",
+        "name": "Garbage Grabber"
+    },
+    {
+        "set": "OGN",
+        "card_number": "100",
+        "name": "Gemcraft Seer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "101",
+        "name": "Mushroom Pouch"
+    },
+    {
+        "set": "OGN",
+        "card_number": "102",
+        "name": "Portal Rescue"
+    },
+    {
+        "set": "OGN",
+        "card_number": "104",
+        "name": "Retreat"
+    },
+    {
+        "set": "OGN",
+        "card_number": "105",
+        "name": "Singularity"
+    },
+    {
+        "set": "OGN",
+        "card_number": "106",
+        "name": "Sprite Mother"
+    },
+    {
+        "set": "OGN",
+        "card_number": "107",
+        "name": "Ava Achiever"
+    },
+    {
+        "set": "OGN",
+        "card_number": "109",
+        "name": "Dr Mundo Expert"
+    },
+    {
+        "set": "OGN",
+        "card_number": "110",
+        "name": "Ekko Recurrent"
+    },
+    {
+        "set": "OGN",
+        "card_number": "114",
+        "name": "Progress Day"
+    },
+    {
+        "set": "OGN",
+        "card_number": "120",
+        "name": "Seal of Insight"
+    },
+    {
+        "set": "OGN",
+        "card_number": "122",
+        "name": "Time Warp"
+    },
+    {
+        "set": "OGN",
+        "card_number": "123",
+        "name": "Unchecked Power"
+    },
+    {
+        "set": "OGN",
+        "card_number": "124",
+        "name": "Arena Bar"
+    },
+    {
+        "set": "OGN",
+        "card_number": "126",
+        "name": "Body Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "127",
+        "name": "Cannon Barrage"
+    },
+    {
+        "set": "OGN",
+        "card_number": "128",
+        "name": "Challenge"
+    },
+    {
+        "set": "OGN",
+        "card_number": "129",
+        "name": "Confront"
+    },
+    {
+        "set": "OGN",
+        "card_number": "131",
+        "name": "Dune Drake"
+    },
+    {
+        "set": "OGN",
+        "card_number": "132",
+        "name": "First Mate"
+    },
+    {
+        "set": "OGN",
+        "card_number": "134",
+        "name": "Mobilize"
+    },
+    {
+        "set": "OGN",
+        "card_number": "135",
+        "name": "Pakaa Cub"
+    },
+    {
+        "set": "OGN",
+        "card_number": "136",
+        "name": "Pit Rookie"
+    },
+    {
+        "set": "OGN",
+        "card_number": "141",
+        "name": "Kinkou Monk"
+    },
+    {
+        "set": "OGN",
+        "card_number": "142",
+        "name": "Mountain Drake"
+    },
+    {
+        "set": "OGN",
+        "card_number": "143",
+        "name": "Pirates Haven"
+    },
+    {
+        "set": "OGN",
+        "card_number": "144",
+        "name": "Spoils of War"
+    },
+    {
+        "set": "OGN",
+        "card_number": "146",
+        "name": "Wallop"
+    },
+    {
+        "set": "OGN",
+        "card_number": "147",
+        "name": "Wildclaw Shaman"
+    },
+    {
+        "set": "OGN",
+        "card_number": "148",
+        "name": "Anivia Primal"
+    },
+    {
+        "set": "OGN",
+        "card_number": "150",
+        "name": "Kraken Hunter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "152",
+        "name": "Mistfall"
+    },
+    {
+        "set": "OGN",
+        "card_number": "153",
+        "name": "Overt Operation"
+    },
+    {
+        "set": "OGN",
+        "card_number": "154",
+        "name": "Primal Strength"
+    },
+    {
+        "set": "OGN",
+        "card_number": "156",
+        "name": "Sabotage"
+    },
+    {
+        "set": "OGN",
+        "card_number": "157",
+        "name": "Udyr Wildman"
+    },
+    {
+        "set": "OGN",
+        "card_number": "159",
+        "name": "Warwick Hunter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "160",
+        "name": "Dazzling Aurora"
+    },
+    {
+        "set": "OGN",
+        "card_number": "164",
+        "name": "Sett Brawler"
+    },
+    {
+        "set": "OGN",
+        "card_number": "166",
+        "name": "Chaos Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "167",
+        "name": "Ember Monk"
+    },
+    {
+        "set": "OGN",
+        "card_number": "168",
+        "name": "Fight or Flight"
+    },
+    {
+        "set": "OGN",
+        "card_number": "169",
+        "name": "Gust"
+    },
+    {
+        "set": "OGN",
+        "card_number": "170",
+        "name": "Morbid Return"
+    },
+    {
+        "set": "OGN",
+        "card_number": "171",
+        "name": "Mystic Poro"
+    },
+    {
+        "set": "OGN",
+        "card_number": "172",
+        "name": "Rebuke"
+    },
+    {
+        "set": "OGN",
+        "card_number": "173",
+        "name": "Ride the Wind"
+    },
+    {
+        "set": "OGN",
+        "card_number": "174",
+        "name": "Sai Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "176",
+        "name": "Sneaky Deckhand"
+    },
+    {
+        "set": "OGN",
+        "card_number": "180",
+        "name": "Fading Memories"
+    },
+    {
+        "set": "OGN",
+        "card_number": "181",
+        "name": "Pack of Wonders"
+    },
+    {
+        "set": "OGN",
+        "card_number": "182",
+        "name": "Scrapheap"
+    },
+    {
+        "set": "OGN",
+        "card_number": "183",
+        "name": "Stacked Deck"
+    },
+    {
+        "set": "OGN",
+        "card_number": "184",
+        "name": "The Syren"
+    },
+    {
+        "set": "OGN",
+        "card_number": "186",
+        "name": "Treasure Trove"
+    },
+    {
+        "set": "OGN",
+        "card_number": "187",
+        "name": "Whirlwind"
+    },
+    {
+        "set": "OGN",
+        "card_number": "188",
+        "name": "Zaunite Bouncer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "189",
+        "name": "Kayn Unleashed"
+    },
+    {
+        "set": "OGN",
+        "card_number": "190",
+        "name": "KogMaw Caustic"
+    },
+    {
+        "set": "OGN",
+        "card_number": "192",
+        "name": "Mindsplitter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "196",
+        "name": "Soulgorger"
+    },
+    {
+        "set": "OGN",
+        "card_number": "197",
+        "name": "Teemo Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "198",
+        "name": "The Harrowing"
+    },
+    {
+        "set": "OGN",
+        "card_number": "199",
+        "name": "Tideturner"
+    },
+    {
+        "set": "OGN",
+        "card_number": "202",
+        "name": "Jinx Rebel"
+    },
+    {
+        "set": "OGN",
+        "card_number": "203",
+        "name": "Possession"
+    },
+    {
+        "set": "OGN",
+        "card_number": "204",
+        "name": "Seal of Discord"
+    },
+    {
+        "set": "OGN",
+        "card_number": "205",
+        "name": "Yasuo Windrider"
+    },
+    {
+        "set": "OGN",
+        "card_number": "206",
+        "name": "Back to Back"
+    },
+    {
+        "set": "OGN",
+        "card_number": "207",
+        "name": "Call to Glory"
+    },
+    {
+        "set": "OGN",
+        "card_number": "208",
+        "name": "Cruel Patron"
+    },
+    {
+        "set": "OGN",
+        "card_number": "209",
+        "name": "Cull the Weak"
+    },
+    {
+        "set": "OGN",
+        "card_number": "210",
+        "name": "Daring Poro"
+    },
+    {
+        "set": "OGN",
+        "card_number": "213",
+        "name": "Hidden Blade"
+    },
+    {
+        "set": "OGN",
+        "card_number": "214",
+        "name": "Order Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "215",
+        "name": "Petty Officer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "216",
+        "name": "Soaring Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "220",
+        "name": "Facebreaker"
+    },
+    {
+        "set": "OGN",
+        "card_number": "221",
+        "name": "Imperial Decree"
+    },
+    {
+        "set": "OGN",
+        "card_number": "222",
+        "name": "Noxian Drummer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "223",
+        "name": "Peak Guardian"
+    },
+    {
+        "set": "OGN",
+        "card_number": "224",
+        "name": "Salvage"
+    },
+    {
+        "set": "OGN",
+        "card_number": "225",
+        "name": "Solari Chief"
+    },
+    {
+        "set": "OGN",
+        "card_number": "226",
+        "name": "Spectral Matron"
+    },
+    {
+        "set": "OGN",
+        "card_number": "228",
+        "name": "Vanguard Helm"
+    },
+    {
+        "set": "OGN",
+        "card_number": "229",
+        "name": "Vengeance"
+    },
+    {
+        "set": "OGN",
+        "card_number": "230",
+        "name": "Albus Ferros"
+    },
+    {
+        "set": "OGN",
+        "card_number": "233",
+        "name": "Grand Strategem"
+    },
+    {
+        "set": "OGN",
+        "card_number": "235",
+        "name": "Karma Channeler"
+    },
+    {
+        "set": "OGN",
+        "card_number": "236",
+        "name": "Karthus Eternal"
+    },
+    {
+        "set": "OGN",
+        "card_number": "237",
+        "name": "Kings Edict"
+    },
+    {
+        "set": "OGN",
+        "card_number": "239",
+        "name": "Machine Evangel"
+    },
+    {
+        "set": "OGN",
+        "card_number": "240",
+        "name": "Sett Kingpin"
+    },
+    {
+        "set": "OGN",
+        "card_number": "241",
+        "name": "Shen Kinkou"
+    },
+    {
+        "set": "OGN",
+        "card_number": "242",
+        "name": "Baited Hook"
+    },
+    {
+        "set": "OGN",
+        "card_number": "244",
+        "name": "Divine Judgment"
+    },
+    {
+        "set": "OGN",
+        "card_number": "245",
+        "name": "Seal of Unity"
+    },
+    {
+        "set": "OGN",
+        "card_number": "246",
+        "name": "Viktor Leader"
+    },
+    {
+        "set": "OGN",
+        "card_number": "248",
+        "name": "Icathian Rain"
+    },
+    {
+        "set": "OGN",
+        "card_number": "250",
+        "name": "Stormbringer"
+    },
+    {
+        "set": "OGN",
+        "card_number": "256",
+        "name": "Fox Fire"
+    },
+    {
+        "set": "OGN",
+        "card_number": "258",
+        "name": "Dragons Rage"
+    },
+    {
+        "set": "OGN",
+        "card_number": "260",
+        "name": "Last Breath"
+    },
+    {
+        "set": "OGN",
+        "card_number": "262",
+        "name": "Zenith Blade"
+    },
+    {
+        "set": "OGN",
+        "card_number": "266",
+        "name": "Siphon Power"
+    },
+    {
+        "set": "OGN",
+        "card_number": "268",
+        "name": "Bullet Time"
+    },
+    {
+        "set": "OGN",
+        "card_number": "269",
+        "name": "Sett The Boss"
+    },
+    {
+        "set": "OGN",
+        "card_number": "270",
+        "name": "Showstopper"
+    },
+    {
+        "set": "OGN",
+        "card_number": "271",
+        "name": "Recruit v2"
+    },
+    {
+        "set": "OGN",
+        "card_number": "272",
+        "name": "Recruit v3"
+    },
+    {
+        "set": "OGN",
+        "card_number": "273",
+        "name": "Recruit"
+    },
+    {
+        "set": "OGN",
+        "card_number": "274",
+        "name": "Sprite"
+    },
+    {
+        "set": "OGN",
+        "card_number": "275",
+        "name": "Altar to Unity"
+    },
+    {
+        "set": "OGN",
+        "card_number": "276",
+        "name": "Aspirants Climb"
+    },
+    {
+        "set": "OGN",
+        "card_number": "277",
+        "name": "Back Alley Bar"
+    },
+    {
+        "set": "OGN",
+        "card_number": "278",
+        "name": "Bandle Tree"
+    },
+    {
+        "set": "OGN",
+        "card_number": "281",
+        "name": "Hallowed Tomb"
+    },
+    {
+        "set": "OGN",
+        "card_number": "285",
+        "name": "Reavers Row"
+    },
+    {
+        "set": "OGN",
+        "card_number": "286",
+        "name": "Reckoners Arena"
+    },
+    {
+        "set": "OGN",
+        "card_number": "288",
+        "name": "Startipped Peak"
+    },
+    {
+        "set": "OGN",
+        "card_number": "289",
+        "name": "Targons Peak"
+    },
+    {
+        "set": "OGN",
+        "card_number": "293",
+        "name": "The Grand Plaza"
+    },
+    {
+        "set": "OGN",
+        "card_number": "295",
+        "name": "Vilemaws Lair"
+    },
+    {
+        "set": "OGN",
+        "card_number": "296",
+        "name": "Void Gate"
+    },
+    {
+        "set": "OGN",
+        "card_number": "298",
+        "name": "Zaun Warrens"
+    },
+    {
+        "set": "OGN",
+        "card_number": "XXX",
+        "name": "Buff"
+    },
+    {
+        "set": "OGS",
+        "card_number": "001",
+        "name": "Annie Fiery"
+    },
+    {
+        "set": "OGS",
+        "card_number": "002",
+        "name": "Firestorm"
+    },
+    {
+        "set": "OGS",
+        "card_number": "003",
+        "name": "Incinerate"
+    },
+    {
+        "set": "OGS",
+        "card_number": "005",
+        "name": "Zephyr Sage"
+    },
+    {
+        "set": "OGS",
+        "card_number": "006",
+        "name": "Lux Illuminated"
+    },
+    {
+        "set": "OGS",
+        "card_number": "007",
+        "name": "Garen Rugged"
+    },
+    {
+        "set": "OGS",
+        "card_number": "008",
+        "name": "Gentlemens Duel"
+    },
+    {
+        "set": "OGS",
+        "card_number": "009",
+        "name": "Master Yi Honed"
+    },
+    {
+        "set": "OGS",
+        "card_number": "010",
+        "name": "Annie Stubborn"
+    },
+    {
+        "set": "OGS",
+        "card_number": "011",
+        "name": "Flash"
+    },
+    {
+        "set": "OGS",
+        "card_number": "012",
+        "name": "Blast of Power"
+    },
+    {
+        "set": "OGS",
+        "card_number": "013",
+        "name": "Garen Commander"
+    },
+    {
+        "set": "OGS",
+        "card_number": "014",
+        "name": "Lux Crownguard"
+    },
+    {
+        "set": "OGS",
+        "card_number": "018",
+        "name": "Tibbers"
+    },
+    {
+        "set": "OGS",
+        "card_number": "020",
+        "name": "Highlander"
+    },
+    {
+        "set": "OGS",
+        "card_number": "022",
+        "name": "Final Spark"
+    },
+    {
+        "set": "OGS",
+        "card_number": "024",
+        "name": "Decisive Strike"
+    },
+    {
+        "set": "SFD",
+        "card_number": "007",
+        "name": "Gem Jammer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "010",
+        "name": "Void Drone"
+    },
+    {
+        "set": "SFD",
+        "card_number": "018",
+        "name": "Void Hatchling"
+    },
+    {
+        "set": "SFD",
+        "card_number": "022",
+        "name": "Long Sword"
+    },
+    {
+        "set": "SFD",
+        "card_number": "023",
+        "name": "Piercing Light"
+    },
+    {
+        "set": "SFD",
+        "card_number": "024",
+        "name": "Rell Magnetic"
+    },
+    {
+        "set": "SFD",
+        "card_number": "025",
+        "name": "Rengar Pouncing"
+    },
+    {
+        "set": "SFD",
+        "card_number": "027",
+        "name": "Dunebreaker"
+    },
+    {
+        "set": "SFD",
+        "card_number": "033",
+        "name": "Dorans Shield"
+    },
+    {
+        "set": "SFD",
+        "card_number": "039",
+        "name": "Royal Entourage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "045",
+        "name": "Not So Fast"
+    },
+    {
+        "set": "SFD",
+        "card_number": "050",
+        "name": "Azir Ascendant"
+    },
+    {
+        "set": "SFD",
+        "card_number": "051",
+        "name": "Guardian Angel"
+    },
+    {
+        "set": "SFD",
+        "card_number": "056",
+        "name": "Steraks Gage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "057",
+        "name": "Irelia Fervent"
+    },
+    {
+        "set": "SFD",
+        "card_number": "059",
+        "name": "Svellsongur"
+    },
+    {
+        "set": "SFD",
+        "card_number": "071",
+        "name": "Breakneck Mech"
+    },
+    {
+        "set": "SFD",
+        "card_number": "082",
+        "name": "Ezreal Dashing"
+    },
+    {
+        "set": "SFD",
+        "card_number": "086",
+        "name": "World Atlas"
+    },
+    {
+        "set": "SFD",
+        "card_number": "087",
+        "name": "Premonition"
+    },
+    {
+        "set": "SFD",
+        "card_number": "091",
+        "name": "Buhru Captain"
+    },
+    {
+        "set": "SFD",
+        "card_number": "095",
+        "name": "Dorans Blade"
+    },
+    {
+        "set": "SFD",
+        "card_number": "099",
+        "name": "Veteran poro"
+    },
+    {
+        "set": "SFD",
+        "card_number": "103",
+        "name": "Jaull Fish"
+    },
+    {
+        "set": "SFD",
+        "card_number": "107",
+        "name": "Strike Down"
+    },
+    {
+        "set": "SFD",
+        "card_number": "108",
+        "name": "Warmogs Armor"
+    },
+    {
+        "set": "SFD",
+        "card_number": "111",
+        "name": "Here to Help"
+    },
+    {
+        "set": "SFD",
+        "card_number": "112",
+        "name": "Kato the Arm"
+    },
+    {
+        "set": "SFD",
+        "card_number": "114",
+        "name": "Marching Orders"
+    },
+    {
+        "set": "SFD",
+        "card_number": "115",
+        "name": "Trinity Force"
+    },
+    {
+        "set": "SFD",
+        "card_number": "118",
+        "name": "Boneshiver"
+    },
+    {
+        "set": "SFD",
+        "card_number": "119",
+        "name": "Jax Unrelenting"
+    },
+    {
+        "set": "SFD",
+        "card_number": "120",
+        "name": "Sivir Ambitious"
+    },
+    {
+        "set": "SFD",
+        "card_number": "122",
+        "name": "Called Shot"
+    },
+    {
+        "set": "SFD",
+        "card_number": "124",
+        "name": "Dorans Ring"
+    },
+    {
+        "set": "SFD",
+        "card_number": "126",
+        "name": "Loyal Pup"
+    },
+    {
+        "set": "SFD",
+        "card_number": "128",
+        "name": "Overzealous Fan"
+    },
+    {
+        "set": "SFD",
+        "card_number": "130",
+        "name": "Treasure Hunter"
+    },
+    {
+        "set": "SFD",
+        "card_number": "138",
+        "name": "Windsinger"
+    },
+    {
+        "set": "SFD",
+        "card_number": "140",
+        "name": "Fizz Trickster"
+    },
+    {
+        "set": "SFD",
+        "card_number": "141",
+        "name": "Irelia Graceful"
+    },
+    {
+        "set": "SFD",
+        "card_number": "145",
+        "name": "Switcheroo"
+    },
+    {
+        "set": "SFD",
+        "card_number": "146",
+        "name": "Vex Cheerless"
+    },
+    {
+        "set": "SFD",
+        "card_number": "150",
+        "name": "Last Rites"
+    },
+    {
+        "set": "SFD",
+        "card_number": "155",
+        "name": "Honest Broker"
+    },
+    {
+        "set": "SFD",
+        "card_number": "157",
+        "name": "Royal Guard"
+    },
+    {
+        "set": "SFD",
+        "card_number": "161",
+        "name": "BF Sword"
+    },
+    {
+        "set": "SFD",
+        "card_number": "167",
+        "name": "Unsung Hero"
+    },
+    {
+        "set": "SFD",
+        "card_number": "168",
+        "name": "Vanguard Armory"
+    },
+    {
+        "set": "SFD",
+        "card_number": "172",
+        "name": "Sacred Shears"
+    },
+    {
+        "set": "SFD",
+        "card_number": "173",
+        "name": "Soraka Wanderer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "179",
+        "name": "Corina Veraza"
+    },
+    {
+        "set": "SFD",
+        "card_number": "180",
+        "name": "Fiora Worthy"
+    },
+    {
+        "set": "SFD",
+        "card_number": "182",
+        "name": "Danger Zone"
+    },
+    {
+        "set": "SFD",
+        "card_number": "183",
+        "name": "Lucian Purifier"
+    },
+    {
+        "set": "SFD",
+        "card_number": "186",
+        "name": "Spinning Axe"
+    },
+    {
+        "set": "SFD",
+        "card_number": "188",
+        "name": "Void Rush"
+    },
+    {
+        "set": "SFD",
+        "card_number": "196",
+        "name": "Defiant Dance"
+    },
+    {
+        "set": "SFD",
+        "card_number": "214",
+        "name": "Power Nexus"
+    },
+    {
+        "set": "SFD",
+        "card_number": "T03",
+        "name": "Gold"
+    }
+]

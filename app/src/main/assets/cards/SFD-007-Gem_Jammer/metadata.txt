@@ -1,0 +1,3 @@
+Card Name: Gem Jammer
+Card Number: SFD-007
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-007.webp

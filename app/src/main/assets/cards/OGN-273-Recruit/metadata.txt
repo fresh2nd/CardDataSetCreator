@@ -1,0 +1,3 @@
+Card Name: Recruit
+Card Number: OGN-273
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-273.webp

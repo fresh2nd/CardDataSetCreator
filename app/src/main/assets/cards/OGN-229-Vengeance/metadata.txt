@@ -1,0 +1,3 @@
+Card Name: Vengeance
+Card Number: OGN-229
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-229.webp

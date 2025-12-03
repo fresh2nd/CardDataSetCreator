@@ -1,0 +1,3 @@
+Card Name: Incinerate
+Card Number: OGS-003
+Image URL: https://cdn.piltoverarchive.com/cards/OGS-003.webp

@@ -1,0 +1,3 @@
+Card Name: Wallop
+Card Number: OGN-146
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-146.webp

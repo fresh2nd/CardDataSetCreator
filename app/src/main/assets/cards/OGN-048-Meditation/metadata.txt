@@ -1,0 +1,3 @@
+Card Name: Meditation
+Card Number: OGN-048
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-048.webp

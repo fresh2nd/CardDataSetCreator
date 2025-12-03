@@ -1,0 +1,3 @@
+Card Name: Gold
+Card Number: SFD-T03
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-T03.webp

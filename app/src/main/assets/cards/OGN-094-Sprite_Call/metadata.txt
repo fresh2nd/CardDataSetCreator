@@ -1,0 +1,3 @@
+Card Name: Sprite Call
+Card Number: OGN-094
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-094.webp

@@ -1,0 +1,3 @@
+Card Name: Long Sword
+Card Number: SFD-022
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-022.webp

@@ -1,0 +1,3 @@
+Card Name: Unchecked Power
+Card Number: OGN-123
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-123.webp

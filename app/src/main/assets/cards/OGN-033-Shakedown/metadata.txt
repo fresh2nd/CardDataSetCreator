@@ -1,0 +1,3 @@
+Card Name: Shakedown
+Card Number: OGN-033
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-033.webp

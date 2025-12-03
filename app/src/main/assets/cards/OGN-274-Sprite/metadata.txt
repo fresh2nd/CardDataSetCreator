@@ -1,0 +1,3 @@
+Card Name: Sprite
+Card Number: OGN-274
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-274.webp

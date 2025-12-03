@@ -1,0 +1,3 @@
+Card Name: Blast of Power
+Card Number: OGS-012
+Image URL: https://cdn.piltoverarchive.com/cards/OGS-012.webp

@@ -1,0 +1,3 @@
+Card Name: Challenge
+Card Number: OGN-128
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-128.webp

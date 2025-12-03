@@ -1,0 +1,3 @@
+Card Name: Possession
+Card Number: OGN-203
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-203.webp

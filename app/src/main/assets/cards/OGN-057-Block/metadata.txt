@@ -1,0 +1,3 @@
+Card Name: Block
+Card Number: OGN-057
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-057.webp

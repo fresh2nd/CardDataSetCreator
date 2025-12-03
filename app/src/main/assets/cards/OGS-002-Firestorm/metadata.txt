@@ -1,0 +1,3 @@
+Card Name: Firestorm
+Card Number: OGS-002
+Image URL: https://cdn.piltoverarchive.com/cards/OGS-002.webp

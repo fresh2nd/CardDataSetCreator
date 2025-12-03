@@ -1,0 +1,3 @@
+Card Name: Highlander
+Card Number: OGS-020
+Image URL: https://cdn.piltoverarchive.com/cards/OGS-020.webp

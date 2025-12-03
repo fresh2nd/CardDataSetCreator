@@ -1,0 +1,3 @@
+Card Name: First Mate
+Card Number: OGN-132
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-132.webp

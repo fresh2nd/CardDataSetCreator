@@ -1,0 +1,3 @@
+Card Name: Void Drone
+Card Number: SFD-010
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-010.webp

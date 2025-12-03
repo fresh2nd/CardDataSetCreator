@@ -1,0 +1,3 @@
+Card Name: Spinning Axe
+Card Number: SFD-186
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-186.webp

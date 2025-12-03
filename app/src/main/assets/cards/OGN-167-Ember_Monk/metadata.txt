@@ -1,0 +1,3 @@
+Card Name: Ember Monk
+Card Number: OGN-167
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-167.webp

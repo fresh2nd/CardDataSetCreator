@@ -1,0 +1,3 @@
+Card Name: Traveling Merchant
+Card Number: OGN-185
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-185.webp

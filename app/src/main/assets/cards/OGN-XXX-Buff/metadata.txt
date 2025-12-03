@@ -1,0 +1,3 @@
+Card Name: Buff
+Card Number: OGN-XXX
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-XXX.webp

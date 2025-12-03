@@ -1,0 +1,3 @@
+Card Name: World Atlas
+Card Number: SFD-086
+Image URL: https://cdn.piltoverarchive.com/cards/SFD-086.webp

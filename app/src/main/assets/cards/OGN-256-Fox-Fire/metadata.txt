@@ -1,0 +1,3 @@
+Card Name: Fox-Fire
+Card Number: OGN-256
+Image URL: https://cdn.piltoverarchive.com/cards/OGN-256.webp
