@@ -16,8 +16,8 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Flare
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
@@ -146,7 +146,7 @@ fun CameraScreen(cardName: String, navController: NavController) {
                 ),
                 modifier = Modifier.size(60.dp)
             ) {
-                Icon(Icons.Filled.AutoAwesome, contentDescription = "Auto Capture")
+                Icon(Icons.Filled.Flare, contentDescription = "Auto Capture")
             }
         }
     }
