@@ -16,11 +16,13 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Flare
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -28,10 +30,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
+import com.dataset.creator.viewmodel.CardsViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
@@ -40,7 +44,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 @Composable
-fun CameraScreen(cardName: String, navController: NavController) {
+fun CameraScreen(cardName: String, navController: NavController, viewModel: CardsViewModel) {
     val context = LocalContext.current
     val lifecycleOwner = LocalLifecycleOwner.current
     val coroutineScope = rememberCoroutineScope()
@@ -91,24 +95,53 @@ fun CameraScreen(cardName: String, navController: NavController) {
             modifier = Modifier.fillMaxSize()
         )
 
-        // Close Button
-        IconButton(
-            onClick = { navController.popBackStack() },
-            modifier = Modifier.align(Alignment.TopStart).padding(16.dp)
+        // Top UI
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .align(Alignment.TopCenter)
         ) {
-            Icon(imageVector = Icons.Filled.Close, contentDescription = "Close camera", tint = Color.White)
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                IconButton(onClick = { navController.popBackStack() }) {
+                    Icon(imageVector = Icons.Filled.Close, contentDescription = "Close camera", tint = Color.White)
+                }
+                Text(
+                    text = cardName,
+                    color = Color.White,
+                    style = MaterialTheme.typography.titleMedium,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.weight(1f)
+                )
+                IconButton(onClick = {
+                    val cards = viewModel.cards
+                    val currentIndex = cards.indexOfFirst { it.getFolderName() == cardName }
+                    if (currentIndex != -1 && currentIndex < cards.size - 1) {
+                        val nextCard = cards[currentIndex + 1]
+                        navController.popBackStack()
+                        navController.navigate("camera/${nextCard.getFolderName()}")
+                    }
+                }) {
+                    Icon(imageVector = Icons.AutoMirrored.Filled.ArrowForward, contentDescription = "Next Card", tint = Color.White)
+                }
+            }
+
+            AnimatedVisibility(
+                visible = showPictureAddedCue,
+                enter = fadeIn(),
+                exit = fadeOut(),
+                modifier = Modifier.align(Alignment.CenterHorizontally)
+            ) {
+                Text("Picture added", color = Color.White, modifier = Modifier.background(Color.Black.copy(alpha = 0.5f)).padding(16.dp))
+            }
         }
 
-        // "Picture Added" Cue
-        AnimatedVisibility(
-            visible = showPictureAddedCue,
-            enter = fadeIn(),
-            exit = fadeOut(),
-            modifier = Modifier.align(Alignment.TopCenter).padding(top = 16.dp)
-        ) {
-            Text("Picture added", color = Color.White, modifier = Modifier.background(Color.Black.copy(alpha = 0.5f)).padding(16.dp))
-        }
-
+        // Bottom UI
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -117,9 +150,8 @@ fun CameraScreen(cardName: String, navController: NavController) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Spacer(modifier = Modifier.size(60.dp)) // Placeholder to balance the shutter button
+            Spacer(modifier = Modifier.size(60.dp)) // Placeholder
 
-            // Main Shutter Button
             IconButton(
                 onClick = {
                     if (!isAutoCaptureOn) {
@@ -138,7 +170,6 @@ fun CameraScreen(cardName: String, navController: NavController) {
                 Box(modifier = Modifier.size(80.dp).padding(1.dp).border(2.dp, if (isAutoCaptureOn) Color.Gray else Color.White, CircleShape))
             }
 
-            // Auto-Capture Toggle Button
             IconButton(
                 onClick = { isAutoCaptureOn = !isAutoCaptureOn },
                 colors = IconButtonDefaults.iconButtonColors(
@@ -146,7 +177,7 @@ fun CameraScreen(cardName: String, navController: NavController) {
                 ),
                 modifier = Modifier.size(60.dp)
             ) {
-                Icon(Icons.Filled.Flare, contentDescription = "Auto Capture")
+                Icon(Icons.Filled.AutoAwesome, contentDescription = "Auto Capture")
             }
         }
     }

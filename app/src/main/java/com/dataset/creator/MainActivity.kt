@@ -4,6 +4,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -21,18 +22,22 @@ import androidx.navigation.navArgument
 import com.dataset.creator.ui.camera.CameraScreen
 import com.dataset.creator.ui.cards.CardDetailsScreen
 import com.dataset.creator.ui.cards.CardListScreen
+import com.dataset.creator.ui.cards.FilteredCardListScreen
 import com.dataset.creator.ui.cards.FullScreenImageScreen
 import com.dataset.creator.ui.common.BottomNavBar
 import com.dataset.creator.ui.intro.IntroScreen
 import com.dataset.creator.ui.options.OptionsScreen
 import com.dataset.creator.ui.theme.CardDataSetCreatorTheme
+import com.dataset.creator.viewmodel.CardsViewModel
 import java.net.URLDecoder
 import java.net.URLEncoder
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
+    private val cardsViewModel: CardsViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        cardsViewModel.loadCards(this)
         setContent {
             CardDataSetCreatorTheme {
                 val navController = rememberNavController()
@@ -41,13 +46,13 @@ class MainActivity : ComponentActivity() {
 
                 Scaffold(
                     bottomBar = {
-                        if (currentRoute == "cardList" || currentRoute == "options") {
+                        if (currentRoute == "cardList" || currentRoute == "filteredCardList" || currentRoute == "options") {
                             BottomNavBar(navController = navController)
                         }
                     }
                 ) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        CardDataSetCreatorApp(navController = navController)
+                        CardDataSetCreatorApp(navController = navController, viewModel = cardsViewModel)
                     }
                 }
             }
@@ -56,7 +61,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun CardDataSetCreatorApp(navController: NavHostController) {
+fun CardDataSetCreatorApp(navController: NavHostController, viewModel: CardsViewModel) {
     NavHost(navController = navController, startDestination = "intro") {
         composable("intro") {
             IntroScreen {
@@ -66,7 +71,12 @@ fun CardDataSetCreatorApp(navController: NavHostController) {
             }
         }
         composable("cardList") {
-            CardListScreen(navController = navController) { cardName ->
+            CardListScreen(navController = navController, viewModel = viewModel) { cardName ->
+                navController.navigate("cardDetails/$cardName")
+            }
+        }
+        composable("filteredCardList") {
+            FilteredCardListScreen(navController = navController, viewModel = viewModel) { cardName ->
                 navController.navigate("cardDetails/$cardName")
             }
         }
@@ -85,7 +95,7 @@ fun CardDataSetCreatorApp(navController: NavHostController) {
         composable("camera/{cardName}") { backStackEntry ->
             val cardName = backStackEntry.arguments?.getString("cardName")
             if (cardName != null) {
-                CameraScreen(cardName = cardName, navController = navController)
+                CameraScreen(cardName = cardName, navController = navController, viewModel = viewModel)
             }
         }
         composable(

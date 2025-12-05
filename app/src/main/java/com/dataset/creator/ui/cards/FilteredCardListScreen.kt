@@ -26,13 +26,13 @@ import com.dataset.creator.viewmodel.CardsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CardListScreen(navController: NavController, viewModel: CardsViewModel, onCardClick: (String) -> Unit) {
+fun FilteredCardListScreen(navController: NavController, viewModel: CardsViewModel, onCardClick: (String) -> Unit) {
     val context = LocalContext.current
-    val cards = viewModel.cards
+    val cards = viewModel.cards.filter { getCardImageCount(context, it.getFolderName()) < 20 }
 
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text("Cards") })
+            TopAppBar(title = { Text("Filtered Cards") })
         }
     ) { paddingValues ->
         LazyColumn(
