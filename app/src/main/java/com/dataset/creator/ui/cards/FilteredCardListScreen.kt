@@ -41,9 +41,15 @@ fun FilteredCardListScreen(navController: NavController, viewModel: CardsViewMod
         }
     }
 
+    val totalCardsInSet = remember(viewModel.cards, selectedSet) {
+        viewModel.cards.filter { card ->
+            selectedSet == null || card.set == selectedSet
+        }
+    }
+
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text("Filtered Cards") })
+            TopAppBar(title = { Text("Filtered Cards (${filteredCards.size}/${totalCardsInSet.size})") })
         }
     ) { paddingValues ->
         Column(

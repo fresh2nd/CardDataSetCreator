@@ -123,7 +123,9 @@ fun CameraScreen(cardName: String, navController: NavController, viewModel: Card
                     val currentIndex = cards.indexOfFirst { it.getFolderName() == cardName }
                     if (currentIndex != -1 && currentIndex < cards.size - 1) {
                         val nextCard = cards[currentIndex + 1]
-                        navController.popBackStack()
+                        navController.navigate("cardDetails/${nextCard.getFolderName()}") {
+                            popUpTo("cardDetails/$cardName") { inclusive = true }
+                        }
                         navController.navigate("camera/${nextCard.getFolderName()}")
                     }
                 }) {
