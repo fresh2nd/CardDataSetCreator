@@ -31,13 +31,15 @@ fun FilteredCardListScreen(navController: NavController, viewModel: CardsViewMod
     var searchQuery by remember { mutableStateOf("") }
     var selectedSet by remember { mutableStateOf<String?>(null) }
     var isSetExpanded by remember { mutableStateOf(false) }
+    var showAltArtsOnly by remember { mutableStateOf(false) }
 
     val sets = remember(baseFilteredCards) { baseFilteredCards.map { it.set }.distinct().sorted() }
 
-    val filteredCards = remember(baseFilteredCards, searchQuery, selectedSet) {
+    val filteredCards = remember(baseFilteredCards, searchQuery, selectedSet, showAltArtsOnly) {
         baseFilteredCards.filter { card ->
             (searchQuery.isBlank() || card.name.contains(searchQuery, ignoreCase = true)) &&
-            (selectedSet == null || card.set == selectedSet)
+            (selectedSet == null || card.set == selectedSet) &&
+            (!showAltArtsOnly || (card.card_number.contains("a", ignoreCase = true) || card.card_number.contains("signed", ignoreCase = true)))
         }
     }
 
@@ -101,6 +103,14 @@ fun FilteredCardListScreen(navController: NavController, viewModel: CardsViewMod
                         }
                     }
                 }
+
+                Spacer(modifier = Modifier.width(8.dp))
+
+                FilterChip(
+                    selected = showAltArtsOnly,
+                    onClick = { showAltArtsOnly = !showAltArtsOnly },
+                    label = { Text("Alt Arts") }
+                )
             }
 
             LazyColumn(

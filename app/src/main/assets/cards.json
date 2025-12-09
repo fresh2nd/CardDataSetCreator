@@ -36,6 +36,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "007a",
+        "name": "Fury Rune"
+    },
+    {
+        "set": "OGN",
         "card_number": "008",
         "name": "Get Excited"
     },
@@ -136,6 +141,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "027a",
+        "name": "Darius Trifarian"
+    },
+    {
+        "set": "OGN",
         "card_number": "028",
         "name": "Draven Showboat"
     },
@@ -147,6 +157,11 @@
     {
         "set": "OGN",
         "card_number": "030",
+        "name": "Jinx Demolitionist"
+    },
+    {
+        "set": "OGN",
+        "card_number": "030a",
         "name": "Jinx Demolitionist"
     },
     {
@@ -196,6 +211,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "039a",
+        "name": "KaiSa Survivor"
+    },
+    {
+        "set": "OGN",
         "card_number": "040",
         "name": "Seal of Rage"
     },
@@ -206,7 +226,17 @@
     },
     {
         "set": "OGN",
+        "card_number": "041a",
+        "name": "Volibear Furious"
+    },
+    {
+        "set": "OGN",
         "card_number": "042",
+        "name": "Calm Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "042a",
         "name": "Calm Rune"
     },
     {
@@ -331,6 +361,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "066a",
+        "name": "Ahri Alluring"
+    },
+    {
+        "set": "OGN",
         "card_number": "067",
         "name": "Blitzcrank Impassive"
     },
@@ -381,6 +416,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "076a",
+        "name": "Yasuo Remorseful"
+    },
+    {
+        "set": "OGN",
         "card_number": "077",
         "name": "Zhonyas Hourglass"
     },
@@ -391,7 +431,17 @@
     },
     {
         "set": "OGN",
+        "card_number": "078a",
+        "name": "Lee Sin Ascetic"
+    },
+    {
+        "set": "OGN",
         "card_number": "079",
+        "name": "Leona Zealot"
+    },
+    {
+        "set": "OGN",
+        "card_number": "079a",
         "name": "Leona Zealot"
     },
     {
@@ -442,6 +492,11 @@
     {
         "set": "OGN",
         "card_number": "089",
+        "name": "Mind Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "089a",
         "name": "Mind Rune"
     },
     {
@@ -561,6 +616,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "112a",
+        "name": "KaiSa Evolutionary"
+    },
+    {
+        "set": "OGN",
         "card_number": "113",
         "name": "Malzahar Fanatic"
     },
@@ -586,6 +646,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "117a",
+        "name": "Viktor Innovator"
+    },
+    {
+        "set": "OGN",
         "card_number": "118",
         "name": "Wraith of Echoes"
     },
@@ -596,12 +661,22 @@
     },
     {
         "set": "OGN",
+        "card_number": "119a",
+        "name": "Ahri Inquisitive"
+    },
+    {
+        "set": "OGN",
         "card_number": "120",
         "name": "Seal of Insight"
     },
     {
         "set": "OGN",
         "card_number": "121",
+        "name": "Teemo Strategist"
+    },
+    {
+        "set": "OGN",
+        "card_number": "121a",
         "name": "Teemo Strategist"
     },
     {
@@ -627,6 +702,11 @@
     {
         "set": "OGN",
         "card_number": "126",
+        "name": "Body Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "126a",
         "name": "Body Rune"
     },
     {
@@ -756,6 +836,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "151a",
+        "name": "Lee Sin Centered"
+    },
+    {
+        "set": "OGN",
         "card_number": "152",
         "name": "Mistfall"
     },
@@ -791,6 +876,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "158a",
+        "name": "Volibear Imposing"
+    },
+    {
+        "set": "OGN",
         "card_number": "159",
         "name": "Warwick Hunter"
     },
@@ -811,6 +901,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "162a",
+        "name": "Miss Fortune Captain"
+    },
+    {
+        "set": "OGN",
         "card_number": "163",
         "name": "Seal of Strength"
     },
@@ -821,12 +916,22 @@
     },
     {
         "set": "OGN",
+        "card_number": "164a",
+        "name": "Sett Brawler"
+    },
+    {
+        "set": "OGN",
         "card_number": "165",
         "name": "Cemetery Attendant"
     },
     {
         "set": "OGN",
         "card_number": "166",
+        "name": "Chaos Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "166a",
         "name": "Chaos Rune"
     },
     {
@@ -966,6 +1071,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "193a",
+        "name": "Miss Fortune Buccaneer"
+    },
+    {
+        "set": "OGN",
         "card_number": "194",
         "name": "Nocturne Horrifying"
     },
@@ -982,6 +1092,11 @@
     {
         "set": "OGN",
         "card_number": "197",
+        "name": "Teemo Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "197a",
         "name": "Teemo Scout"
     },
     {
@@ -1011,6 +1126,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "202a",
+        "name": "Jinx Rebel"
+    },
+    {
+        "set": "OGN",
         "card_number": "203",
         "name": "Possession"
     },
@@ -1022,6 +1142,11 @@
     {
         "set": "OGN",
         "card_number": "205",
+        "name": "Yasuo Windrider"
+    },
+    {
+        "set": "OGN",
+        "card_number": "205a",
         "name": "Yasuo Windrider"
     },
     {
@@ -1067,6 +1192,11 @@
     {
         "set": "OGN",
         "card_number": "214",
+        "name": "Order Rune"
+    },
+    {
+        "set": "OGN",
+        "card_number": "214a",
         "name": "Order Rune"
     },
     {
@@ -1191,12 +1321,22 @@
     },
     {
         "set": "OGN",
+        "card_number": "238a",
+        "name": "Leona Determined"
+    },
+    {
+        "set": "OGN",
         "card_number": "239",
         "name": "Machine Evangel"
     },
     {
         "set": "OGN",
         "card_number": "240",
+        "name": "Sett Kingpin"
+    },
+    {
+        "set": "OGN",
+        "card_number": "240a",
         "name": "Sett Kingpin"
     },
     {
@@ -1216,6 +1356,11 @@
     },
     {
         "set": "OGN",
+        "card_number": "243a",
+        "name": "Darius Executioner"
+    },
+    {
+        "set": "OGN",
         "card_number": "244",
         "name": "Divine Judgment"
     },
@@ -1227,6 +1372,11 @@
     {
         "set": "OGN",
         "card_number": "246",
+        "name": "Viktor Leader"
+    },
+    {
+        "set": "OGN",
+        "card_number": "246a",
         "name": "Viktor Leader"
     },
     {
@@ -1348,21 +1498,6 @@
         "set": "OGN",
         "card_number": "270",
         "name": "Showstopper"
-    },
-    {
-        "set": "OGN",
-        "card_number": "271",
-        "name": "Recruit v2"
-    },
-    {
-        "set": "OGN",
-        "card_number": "272",
-        "name": "Recruit v3"
-    },
-    {
-        "set": "OGN",
-        "card_number": "273",
-        "name": "Recruit"
     },
     {
         "set": "OGN",
@@ -1491,8 +1626,123 @@
     },
     {
         "set": "OGN",
-        "card_number": "XXX",
-        "name": "Buff"
+        "card_number": "299",
+        "name": "KaiSa Daughter of the Void"
+    },
+    {
+        "set": "OGN",
+        "card_number": "299signed",
+        "name": "KaiSa Daughter of the Void"
+    },
+    {
+        "set": "OGN",
+        "card_number": "300",
+        "name": "Volibear Relentless Storm"
+    },
+    {
+        "set": "OGN",
+        "card_number": "300signed",
+        "name": "Volibear Relentless Storm"
+    },
+    {
+        "set": "OGN",
+        "card_number": "301",
+        "name": "Jinx Loose Cannon"
+    },
+    {
+        "set": "OGN",
+        "card_number": "301signed",
+        "name": "Jinx Loose Cannon"
+    },
+    {
+        "set": "OGN",
+        "card_number": "302",
+        "name": "Darius Hand of Noxus"
+    },
+    {
+        "set": "OGN",
+        "card_number": "302signed",
+        "name": "Darius Hand of Noxus"
+    },
+    {
+        "set": "OGN",
+        "card_number": "303",
+        "name": "Ahri Nine Tailed Fox"
+    },
+    {
+        "set": "OGN",
+        "card_number": "303signed",
+        "name": "Ahri Nine Tailed Fox"
+    },
+    {
+        "set": "OGN",
+        "card_number": "304",
+        "name": "Lee Sin Blind Monk"
+    },
+    {
+        "set": "OGN",
+        "card_number": "304signed",
+        "name": "Lee Sin Blind Monk"
+    },
+    {
+        "set": "OGN",
+        "card_number": "305",
+        "name": "Yasuo Unforgiven"
+    },
+    {
+        "set": "OGN",
+        "card_number": "305signed",
+        "name": "Yasuo Unforgiven"
+    },
+    {
+        "set": "OGN",
+        "card_number": "306",
+        "name": "Leona Radiant Dawn"
+    },
+    {
+        "set": "OGN",
+        "card_number": "306signed",
+        "name": "Leona Radiant Dawn"
+    },
+    {
+        "set": "OGN",
+        "card_number": "307",
+        "name": "Teemo Swift Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "307signed",
+        "name": "Teemo Swift Scout"
+    },
+    {
+        "set": "OGN",
+        "card_number": "308",
+        "name": "Viktor Herald of the Arcane"
+    },
+    {
+        "set": "OGN",
+        "card_number": "308signed",
+        "name": "Viktor Herald of the Arcane"
+    },
+    {
+        "set": "OGN",
+        "card_number": "309",
+        "name": "Miss Fortune Bounty Hunter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "309signed",
+        "name": "Miss Fortune Bounty Hunter"
+    },
+    {
+        "set": "OGN",
+        "card_number": "310",
+        "name": "Sett The Boss"
+    },
+    {
+        "set": "OGN",
+        "card_number": "310signed",
+        "name": "Sett The Boss"
     },
     {
         "set": "OGS",
@@ -1512,7 +1762,7 @@
     {
         "set": "OGS",
         "card_number": "004",
-        "name": "Master Yi Meditative"
+        "name": "Yi Meditative"
     },
     {
         "set": "OGS",
@@ -1537,7 +1787,7 @@
     {
         "set": "OGS",
         "card_number": "009",
-        "name": "Master Yi Honed"
+        "name": "Yi Honed"
     },
     {
         "set": "OGS",
@@ -1577,7 +1827,7 @@
     {
         "set": "OGS",
         "card_number": "017",
-        "name": "Annie Dark Child"
+        "name": "Annie Dark Child   Starter"
     },
     {
         "set": "OGS",
@@ -1587,7 +1837,7 @@
     {
         "set": "OGS",
         "card_number": "019",
-        "name": "Master Yi Wuju Bladesman"
+        "name": "Master Yi Wuju Bladesman   Starter"
     },
     {
         "set": "OGS",
@@ -1597,7 +1847,7 @@
     {
         "set": "OGS",
         "card_number": "021",
-        "name": "Lux Lady of Luminosity"
+        "name": "Lux Lady of Luminosity   Starter"
     },
     {
         "set": "OGS",
@@ -1607,7 +1857,7 @@
     {
         "set": "OGS",
         "card_number": "023",
-        "name": "Garen Might of Demacia"
+        "name": "Garen Might of Demacia   Starter"
     },
     {
         "set": "OGS",
@@ -1621,8 +1871,43 @@
     },
     {
         "set": "SFD",
+        "card_number": "002",
+        "name": "Armed Assailant"
+    },
+    {
+        "set": "SFD",
+        "card_number": "003",
+        "name": "Blood Rush"
+    },
+    {
+        "set": "SFD",
+        "card_number": "004",
+        "name": "Bushwhack"
+    },
+    {
+        "set": "SFD",
+        "card_number": "005",
+        "name": "Detonate"
+    },
+    {
+        "set": "SFD",
+        "card_number": "006",
+        "name": "Eager Drakehound"
+    },
+    {
+        "set": "SFD",
         "card_number": "007",
         "name": "Gem Jammer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "008",
+        "name": "Sentinel Adept"
+    },
+    {
+        "set": "SFD",
+        "card_number": "009",
+        "name": "Serrated Dirk"
     },
     {
         "set": "SFD",
@@ -1631,13 +1916,58 @@
     },
     {
         "set": "SFD",
+        "card_number": "011",
+        "name": "Angle Shot"
+    },
+    {
+        "set": "SFD",
+        "card_number": "012",
+        "name": "Battering Ram"
+    },
+    {
+        "set": "SFD",
+        "card_number": "013",
+        "name": "Blast Corps Cadet"
+    },
+    {
+        "set": "SFD",
+        "card_number": "014",
+        "name": "Minotaur Reckoner"
+    },
+    {
+        "set": "SFD",
+        "card_number": "015",
+        "name": "Perched Grimwyrm"
+    },
+    {
+        "set": "SFD",
+        "card_number": "016",
+        "name": "Recurve Bow"
+    },
+    {
+        "set": "SFD",
+        "card_number": "017",
+        "name": "Sudden Storm"
+    },
+    {
+        "set": "SFD",
         "card_number": "018",
         "name": "Void Hatchling"
     },
     {
         "set": "SFD",
+        "card_number": "019",
+        "name": "Assembly Rig"
+    },
+    {
+        "set": "SFD",
         "card_number": "020",
         "name": "Draven Vanquisher"
+    },
+    {
+        "set": "SFD",
+        "card_number": "021",
+        "name": "Ferrous Forerunner"
     },
     {
         "set": "SFD",
@@ -1661,8 +1991,38 @@
     },
     {
         "set": "SFD",
+        "card_number": "026",
+        "name": "Rumble Hotheaded"
+    },
+    {
+        "set": "SFD",
         "card_number": "027",
         "name": "Dunebreaker"
+    },
+    {
+        "set": "SFD",
+        "card_number": "028",
+        "name": "Lucian Gunslinger"
+    },
+    {
+        "set": "SFD",
+        "card_number": "029",
+        "name": "RekSai Breacher"
+    },
+    {
+        "set": "SFD",
+        "card_number": "030",
+        "name": "Skyfall of Areion"
+    },
+    {
+        "set": "SFD",
+        "card_number": "031",
+        "name": "Deserts Call"
+    },
+    {
+        "set": "SFD",
+        "card_number": "032",
+        "name": "Disarming Rake"
     },
     {
         "set": "SFD",
@@ -1671,8 +2031,58 @@
     },
     {
         "set": "SFD",
+        "card_number": "034",
+        "name": "Feral Strength"
+    },
+    {
+        "set": "SFD",
+        "card_number": "035",
+        "name": "Guardian of the Passage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "036",
+        "name": "Lonely Poro"
+    },
+    {
+        "set": "SFD",
+        "card_number": "037",
+        "name": "Navori Scout"
+    },
+    {
+        "set": "SFD",
+        "card_number": "038",
+        "name": "Ribbon Dancer"
+    },
+    {
+        "set": "SFD",
         "card_number": "039",
         "name": "Royal Entourage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "040",
+        "name": "Thwonk"
+    },
+    {
+        "set": "SFD",
+        "card_number": "041",
+        "name": "Apprentice Smith"
+    },
+    {
+        "set": "SFD",
+        "card_number": "042",
+        "name": "Brutalizer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "043",
+        "name": "Emperors Divide"
+    },
+    {
+        "set": "SFD",
+        "card_number": "044",
+        "name": "Legion Quartermaster"
     },
     {
         "set": "SFD",
@@ -1681,8 +2091,18 @@
     },
     {
         "set": "SFD",
+        "card_number": "046",
+        "name": "Poro Snax"
+    },
+    {
+        "set": "SFD",
+        "card_number": "047",
+        "name": "Simian Ancestor"
+    },
+    {
+        "set": "SFD",
         "card_number": "048",
-        "name": "Stellacorn herder"
+        "name": "Stellacorn Herder"
     },
     {
         "set": "SFD",
@@ -1701,6 +2121,21 @@
     },
     {
         "set": "SFD",
+        "card_number": "052",
+        "name": "Heart of Dark Ice"
+    },
+    {
+        "set": "SFD",
+        "card_number": "053",
+        "name": "Janna Savior"
+    },
+    {
+        "set": "SFD",
+        "card_number": "054",
+        "name": "Jax Unmatched"
+    },
+    {
+        "set": "SFD",
         "card_number": "055",
         "name": "Needlessly Large Yordle"
     },
@@ -1716,8 +2151,68 @@
     },
     {
         "set": "SFD",
+        "card_number": "058",
+        "name": "Ornn Blacksmith"
+    },
+    {
+        "set": "SFD",
         "card_number": "059",
         "name": "Svellsongur"
+    },
+    {
+        "set": "SFD",
+        "card_number": "060",
+        "name": "Tianna Crownguard"
+    },
+    {
+        "set": "SFD",
+        "card_number": "061",
+        "name": "Aspiring Engineer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "062",
+        "name": "Bubble Bot"
+    },
+    {
+        "set": "SFD",
+        "card_number": "063",
+        "name": "Chemtech Cask"
+    },
+    {
+        "set": "SFD",
+        "card_number": "064",
+        "name": "Cloth Armor"
+    },
+    {
+        "set": "SFD",
+        "card_number": "065",
+        "name": "Forecaster"
+    },
+    {
+        "set": "SFD",
+        "card_number": "066",
+        "name": "Frigid Touch"
+    },
+    {
+        "set": "SFD",
+        "card_number": "067",
+        "name": "Frostcoat Cub"
+    },
+    {
+        "set": "SFD",
+        "card_number": "068",
+        "name": "Gearhead"
+    },
+    {
+        "set": "SFD",
+        "card_number": "069",
+        "name": "Plundering Poro"
+    },
+    {
+        "set": "SFD",
+        "card_number": "070",
+        "name": "Wages of Pain"
     },
     {
         "set": "SFD",
@@ -1726,13 +2221,73 @@
     },
     {
         "set": "SFD",
+        "card_number": "072",
+        "name": "Dropboarder"
+    },
+    {
+        "set": "SFD",
+        "card_number": "073",
+        "name": "Experimental Hexplate"
+    },
+    {
+        "set": "SFD",
+        "card_number": "074",
+        "name": "Pickpocket"
+    },
+    {
+        "set": "SFD",
         "card_number": "075",
         "name": "Prize of Progress"
     },
     {
         "set": "SFD",
+        "card_number": "076",
+        "name": "Production Surge"
+    },
+    {
+        "set": "SFD",
+        "card_number": "077",
+        "name": "Rocket Barrage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "078",
+        "name": "Temporal Portal"
+    },
+    {
+        "set": "SFD",
+        "card_number": "079",
+        "name": "Bard Mercurial"
+    },
+    {
+        "set": "SFD",
+        "card_number": "080",
+        "name": "Bellows Breath"
+    },
+    {
+        "set": "SFD",
+        "card_number": "081",
+        "name": "Card Sharp"
+    },
+    {
+        "set": "SFD",
         "card_number": "082",
         "name": "Ezreal Dashing"
+    },
+    {
+        "set": "SFD",
+        "card_number": "083",
+        "name": "Hextech Anomaly"
+    },
+    {
+        "set": "SFD",
+        "card_number": "084",
+        "name": "Jayce Man of Progress"
+    },
+    {
+        "set": "SFD",
+        "card_number": "085",
+        "name": "Ornn Forge God"
     },
     {
         "set": "SFD",
@@ -1746,8 +2301,28 @@
     },
     {
         "set": "SFD",
+        "card_number": "088",
+        "name": "Renata Glasc Mastermind"
+    },
+    {
+        "set": "SFD",
+        "card_number": "089",
+        "name": "Rumble Scrapper"
+    },
+    {
+        "set": "SFD",
+        "card_number": "090",
+        "name": "The Zero Drive"
+    },
+    {
+        "set": "SFD",
         "card_number": "091",
         "name": "Buhru Captain"
+    },
+    {
+        "set": "SFD",
+        "card_number": "092",
+        "name": "Combat Chef"
     },
     {
         "set": "SFD",
@@ -1756,18 +2331,68 @@
     },
     {
         "set": "SFD",
+        "card_number": "094",
+        "name": "Direwing"
+    },
+    {
+        "set": "SFD",
         "card_number": "095",
         "name": "Dorans Blade"
     },
     {
         "set": "SFD",
+        "card_number": "096",
+        "name": "Laurent Bladekeeper"
+    },
+    {
+        "set": "SFD",
+        "card_number": "097",
+        "name": "Punch First"
+    },
+    {
+        "set": "SFD",
+        "card_number": "098",
+        "name": "Sea Monkey"
+    },
+    {
+        "set": "SFD",
         "card_number": "099",
-        "name": "Veteran poro"
+        "name": "Veteran Poro"
+    },
+    {
+        "set": "SFD",
+        "card_number": "100",
+        "name": "Yordle Explorer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "101",
+        "name": "Fae Dragon"
+    },
+    {
+        "set": "SFD",
+        "card_number": "102",
+        "name": "Hexdrinker"
     },
     {
         "set": "SFD",
         "card_number": "103",
         "name": "Jaull Fish"
+    },
+    {
+        "set": "SFD",
+        "card_number": "104",
+        "name": "Petricite Monument"
+    },
+    {
+        "set": "SFD",
+        "card_number": "105",
+        "name": "Ruin Runner"
+    },
+    {
+        "set": "SFD",
+        "card_number": "106",
+        "name": "Show of Strength"
     },
     {
         "set": "SFD",
@@ -1778,6 +2403,16 @@
         "set": "SFD",
         "card_number": "108",
         "name": "Warmogs Armor"
+    },
+    {
+        "set": "SFD",
+        "card_number": "109",
+        "name": "Akshan Mischievous"
+    },
+    {
+        "set": "SFD",
+        "card_number": "110",
+        "name": "Fiora Peerless"
     },
     {
         "set": "SFD",
@@ -1811,6 +2446,11 @@
     },
     {
         "set": "SFD",
+        "card_number": "117",
+        "name": "Ancient Henge"
+    },
+    {
+        "set": "SFD",
         "card_number": "118",
         "name": "Boneshiver"
     },
@@ -1826,8 +2466,18 @@
     },
     {
         "set": "SFD",
+        "card_number": "121",
+        "name": "Black Market Broker"
+    },
+    {
+        "set": "SFD",
         "card_number": "122",
         "name": "Called Shot"
+    },
+    {
+        "set": "SFD",
+        "card_number": "123",
+        "name": "Corrupt Enforcer"
     },
     {
         "set": "SFD",
@@ -1836,8 +2486,18 @@
     },
     {
         "set": "SFD",
+        "card_number": "125",
+        "name": "Fae Porter"
+    },
+    {
+        "set": "SFD",
         "card_number": "126",
         "name": "Loyal Pup"
+    },
+    {
+        "set": "SFD",
+        "card_number": "127",
+        "name": "Master Bingwen"
     },
     {
         "set": "SFD",
@@ -1846,8 +2506,23 @@
     },
     {
         "set": "SFD",
+        "card_number": "129",
+        "name": "Temptation"
+    },
+    {
+        "set": "SFD",
         "card_number": "130",
         "name": "Treasure Hunter"
+    },
+    {
+        "set": "SFD",
+        "card_number": "131",
+        "name": "Ancient Warmonger"
+    },
+    {
+        "set": "SFD",
+        "card_number": "132",
+        "name": "Beast Below"
     },
     {
         "set": "SFD",
@@ -1856,8 +2531,33 @@
     },
     {
         "set": "SFD",
+        "card_number": "134",
+        "name": "Cull"
+    },
+    {
+        "set": "SFD",
+        "card_number": "135",
+        "name": "Factory Recall"
+    },
+    {
+        "set": "SFD",
+        "card_number": "136",
+        "name": "Hard Bargain"
+    },
+    {
+        "set": "SFD",
+        "card_number": "137",
+        "name": "Harpoon Squad"
+    },
+    {
+        "set": "SFD",
         "card_number": "138",
         "name": "Windsinger"
+    },
+    {
+        "set": "SFD",
+        "card_number": "139",
+        "name": "Edge of Night"
     },
     {
         "set": "SFD",
@@ -1871,6 +2571,21 @@
     },
     {
         "set": "SFD",
+        "card_number": "142",
+        "name": "Jae Medarda"
+    },
+    {
+        "set": "SFD",
+        "card_number": "143",
+        "name": "Sivir Mercenary"
+    },
+    {
+        "set": "SFD",
+        "card_number": "144",
+        "name": "Spirit Wheel"
+    },
+    {
+        "set": "SFD",
         "card_number": "145",
         "name": "Switcheroo"
     },
@@ -1881,8 +2596,18 @@
     },
     {
         "set": "SFD",
+        "card_number": "147",
+        "name": "Downwell"
+    },
+    {
+        "set": "SFD",
         "card_number": "148",
         "name": "Draven Audacious"
+    },
+    {
+        "set": "SFD",
+        "card_number": "149",
+        "name": "Ezreal Prodigy"
     },
     {
         "set": "SFD",
@@ -1896,8 +2621,28 @@
     },
     {
         "set": "SFD",
+        "card_number": "152",
+        "name": "Eminent Benefactor"
+    },
+    {
+        "set": "SFD",
+        "card_number": "153",
+        "name": "Eye of the Herald"
+    },
+    {
+        "set": "SFD",
+        "card_number": "154",
+        "name": "Guards"
+    },
+    {
+        "set": "SFD",
         "card_number": "155",
         "name": "Honest Broker"
+    },
+    {
+        "set": "SFD",
+        "card_number": "156",
+        "name": "Laurent Duelist"
     },
     {
         "set": "SFD",
@@ -1906,8 +2651,48 @@
     },
     {
         "set": "SFD",
+        "card_number": "158",
+        "name": "Sandshifter"
+    },
+    {
+        "set": "SFD",
+        "card_number": "159",
+        "name": "Trusty Ramhound"
+    },
+    {
+        "set": "SFD",
+        "card_number": "160",
+        "name": "Zaun Punk"
+    },
+    {
+        "set": "SFD",
         "card_number": "161",
         "name": "BF Sword"
+    },
+    {
+        "set": "SFD",
+        "card_number": "162",
+        "name": "Blood Money"
+    },
+    {
+        "set": "SFD",
+        "card_number": "163",
+        "name": "Deathgrip"
+    },
+    {
+        "set": "SFD",
+        "card_number": "164",
+        "name": "Drag Under"
+    },
+    {
+        "set": "SFD",
+        "card_number": "165",
+        "name": "Glasc Mixologist"
+    },
+    {
+        "set": "SFD",
+        "card_number": "166",
+        "name": "Rally the Troops"
     },
     {
         "set": "SFD",
@@ -1943,6 +2728,26 @@
         "set": "SFD",
         "card_number": "173",
         "name": "Soraka Wanderer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "174",
+        "name": "Trove Golem"
+    },
+    {
+        "set": "SFD",
+        "card_number": "175",
+        "name": "Undertitan"
+    },
+    {
+        "set": "SFD",
+        "card_number": "176",
+        "name": "Xin Zhao Vigilant"
+    },
+    {
+        "set": "SFD",
+        "card_number": "177",
+        "name": "Azir Sovereign"
     },
     {
         "set": "SFD",
@@ -2006,8 +2811,28 @@
     },
     {
         "set": "SFD",
+        "card_number": "190",
+        "name": "Forgefire Cape"
+    },
+    {
+        "set": "SFD",
+        "card_number": "191",
+        "name": "Rabadons Deathcrown"
+    },
+    {
+        "set": "SFD",
+        "card_number": "192",
+        "name": "Shurelyas Requiem"
+    },
+    {
+        "set": "SFD",
         "card_number": "193",
         "name": "Jax Grandmaster at Arms"
+    },
+    {
+        "set": "SFD",
+        "card_number": "194",
+        "name": "Counter Strike"
     },
     {
         "set": "SFD",
@@ -2026,8 +2851,18 @@
     },
     {
         "set": "SFD",
+        "card_number": "198",
+        "name": "Arise"
+    },
+    {
+        "set": "SFD",
         "card_number": "199",
         "name": "Ezreal Prodigal Explorer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "200",
+        "name": "Arcane Shift"
     },
     {
         "set": "SFD",
@@ -2036,13 +2871,63 @@
     },
     {
         "set": "SFD",
+        "card_number": "202",
+        "name": "Hostile Takeover"
+    },
+    {
+        "set": "SFD",
         "card_number": "203",
         "name": "Sivir Battle Mistress"
     },
     {
         "set": "SFD",
+        "card_number": "204",
+        "name": "On the Hunt"
+    },
+    {
+        "set": "SFD",
         "card_number": "205",
         "name": "Fiora Grand Duelist"
+    },
+    {
+        "set": "SFD",
+        "card_number": "206",
+        "name": "Riposte"
+    },
+    {
+        "set": "SFD",
+        "card_number": "207",
+        "name": "Emperors Dais"
+    },
+    {
+        "set": "SFD",
+        "card_number": "208",
+        "name": "Forge of the Fluft"
+    },
+    {
+        "set": "SFD",
+        "card_number": "209",
+        "name": "Forgotten Monument"
+    },
+    {
+        "set": "SFD",
+        "card_number": "210",
+        "name": "Hall of Legends"
+    },
+    {
+        "set": "SFD",
+        "card_number": "211",
+        "name": "Marai Spire"
+    },
+    {
+        "set": "SFD",
+        "card_number": "212",
+        "name": "Minefield"
+    },
+    {
+        "set": "SFD",
+        "card_number": "213",
+        "name": "Ornns Forge"
     },
     {
         "set": "SFD",
@@ -2053,6 +2938,186 @@
         "set": "SFD",
         "card_number": "215",
         "name": "Ravenbloom Conservatory"
+    },
+    {
+        "set": "SFD",
+        "card_number": "216",
+        "name": "Rockfall Path"
+    },
+    {
+        "set": "SFD",
+        "card_number": "217",
+        "name": "Seat of Power"
+    },
+    {
+        "set": "SFD",
+        "card_number": "218",
+        "name": "Sunken Temple"
+    },
+    {
+        "set": "SFD",
+        "card_number": "219",
+        "name": "The Papertree"
+    },
+    {
+        "set": "SFD",
+        "card_number": "220",
+        "name": "Treasure Hoard"
+    },
+    {
+        "set": "SFD",
+        "card_number": "221",
+        "name": "Veiled Temple"
+    },
+    {
+        "set": "SFD",
+        "card_number": "222",
+        "name": "Seal of Rage"
+    },
+    {
+        "set": "SFD",
+        "card_number": "223",
+        "name": "Vayne Hunter"
+    },
+    {
+        "set": "SFD",
+        "card_number": "224",
+        "name": "Aphelios Exalted"
+    },
+    {
+        "set": "SFD",
+        "card_number": "225",
+        "name": "Irelia Fervent"
+    },
+    {
+        "set": "SFD",
+        "card_number": "226",
+        "name": "Seal of Focus"
+    },
+    {
+        "set": "SFD",
+        "card_number": "227",
+        "name": "Ahri Inquisitive"
+    },
+    {
+        "set": "SFD",
+        "card_number": "228",
+        "name": "Bard Mercurial"
+    },
+    {
+        "set": "SFD",
+        "card_number": "229",
+        "name": "Seal of Insight"
+    },
+    {
+        "set": "SFD",
+        "card_number": "230",
+        "name": "Teemo Strategist"
+    },
+    {
+        "set": "SFD",
+        "card_number": "231",
+        "name": "Seal of Strength"
+    },
+    {
+        "set": "SFD",
+        "card_number": "232",
+        "name": "Sett Brawler"
+    },
+    {
+        "set": "SFD",
+        "card_number": "233",
+        "name": "Yone Blademaster"
+    },
+    {
+        "set": "SFD",
+        "card_number": "234",
+        "name": "Seal of Discord"
+    },
+    {
+        "set": "SFD",
+        "card_number": "235",
+        "name": "Yasuo Windrider"
+    },
+    {
+        "set": "SFD",
+        "card_number": "236",
+        "name": "Darius Executioner"
+    },
+    {
+        "set": "SFD",
+        "card_number": "237",
+        "name": "Karma Channeler"
+    },
+    {
+        "set": "SFD",
+        "card_number": "238",
+        "name": "Seal of Unity"
+    },
+    {
+        "set": "SFD",
+        "card_number": "239",
+        "name": "Soraka Wanderer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "240",
+        "name": "Rumble Mechanized Menace"
+    },
+    {
+        "set": "SFD",
+        "card_number": "241",
+        "name": "Lucian Purifier"
+    },
+    {
+        "set": "SFD",
+        "card_number": "242",
+        "name": "Draven Glorious Executioner"
+    },
+    {
+        "set": "SFD",
+        "card_number": "243",
+        "name": "RekSai Void Burrower"
+    },
+    {
+        "set": "SFD",
+        "card_number": "244",
+        "name": "Ornn Fire Below the Mountain"
+    },
+    {
+        "set": "SFD",
+        "card_number": "245",
+        "name": "Jax Grandmaster at Arms"
+    },
+    {
+        "set": "SFD",
+        "card_number": "246",
+        "name": "Irelia Blade Dancer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "247",
+        "name": "Azir Emperor of the Sands"
+    },
+    {
+        "set": "SFD",
+        "card_number": "248",
+        "name": "Ezreal Prodigal Explorer"
+    },
+    {
+        "set": "SFD",
+        "card_number": "249",
+        "name": "Renata Glasc Chem Baroness"
+    },
+    {
+        "set": "SFD",
+        "card_number": "250",
+        "name": "Sivir Battle Mistress"
+    },
+    {
+        "set": "SFD",
+        "card_number": "251",
+        "name": "Fiora Grand Duelist"
     },
     {
         "set": "SFD",
